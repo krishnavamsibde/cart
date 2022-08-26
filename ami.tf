@@ -5,7 +5,7 @@ provider "aws" {
 terraform {
   backend "s3" {
     bucket = "terraform-kvbucket"
-    key    = "ex2/terraform.tfstate"
+    key    = "ami/cart/terraform.tfstate"
     region = "us-east-1"
   }
 }
